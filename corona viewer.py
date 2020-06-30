@@ -37,7 +37,7 @@ with open('datefile','a') as f:
      mint = tm.tm_min
      sec = tm.tm_sec
      hour = tm.tm_hour
-     print(str(month)+'.'+str(day)+str(sec)+str(mint)+str(hour),file=f)
+     print(int(open('datefile').readlines()[-1])+1,file=f)
      
 
 
@@ -70,7 +70,7 @@ with open('datefile') as f:
 try:
      plt.plot(x,y,'g-')
 except :
-     print('error')
+     print(s,str(x.size))
 
 plt.tight_layout()
 plt.xlabel('X axis')
