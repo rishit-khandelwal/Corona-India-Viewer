@@ -6,3 +6,5 @@ It uses `matplotlib` for plotting the graphs
 It uses `bs4` `requests` for getting data from https://www.mygov.in/covid-19
 
 Can also be used for state-wise graphing if web data is scraped in that manner
+
+![Graph 30/6/2020](/figure1.png)
