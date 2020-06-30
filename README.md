@@ -9,6 +9,6 @@ Can also be used for state-wise graphing if web data is scraped in that manner
 
 To run the program type this in a preffered terminal of your choice:
 
-`python "corona viewer.py"`
+`$ python "corona viewer.py"`
 
 ![Graph 30/6/2020](/figure1.png)
